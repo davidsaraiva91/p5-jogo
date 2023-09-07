@@ -8,6 +8,7 @@ let imagemCarro2;
 let imagemCarro3;
 let imagemCarro4;
 let imagemCarro5;
+let imagemCarros;
 
 //sons
 let somDaTrilha;

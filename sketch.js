@@ -2,7 +2,6 @@
 
 function setup(){
   createCanvas(500, 400);
-  
 }
 
 function draw() {
@@ -15,7 +14,7 @@ function draw() {
   verificaColisão();
   IncluiPontos();
   marcaPontos();
-  
+  levelSelector();
 }
 
 
