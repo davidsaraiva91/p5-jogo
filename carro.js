@@ -7,16 +7,16 @@ let comprimentoCarro = 50;
 let alturaCarro = 40;
 
 // lista movimena carros
-let velocidadeCarros = [5.3,7,6,8,6.5,5.8];
 
 function mostraCarros(){
-  for (let i = 0; i < imagemCarros.length; i = i + 1 ){
+  for (let i = 0; i < pegarQuantidadeDeCarros(); i = i + 1 ){
    image(imagemCarros[i], xCarros[i],yCarros[i], comprimentoCarro, alturaCarro);
  }
 }
 
 function movimentaCarros(){
-  for ( let i = 0;i< imagemCarros.length; i = i + 1){
+  let velocidadeCarros = pegarVelocidadeCarros();
+  for ( let i = 0;i< pegarQuantidadeDeCarros(); i = i + 1){
     xCarros[i]-= velocidadeCarros[i];
   }
 } 
