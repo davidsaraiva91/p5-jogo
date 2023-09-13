@@ -6,6 +6,10 @@ const configuracaoDeLevel = {
     quantidadeDeCarros: 4,
     valocidadeCarros: [1.3,3,2,3,1.5,2.8]
   },
+  medio: {
+    quantidadeDeCarros: 5,
+    valocidadeCarros: [3,4,3,4,3,4.6]
+  },
   dificil: {
     quantidadeDeCarros: 6,
     valocidadeCarros: [5.3,7,6,8,6.5,5.8]
